@@ -1,0 +1,261 @@
+.modal-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal {
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  width: 480px;
+  max-width: 92%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.modal h3 {
+  margin-top: 0;
+}
+.form-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.form-row label {
+  width: 90px;
+}
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 6px;
+} /* ===== Global Layout ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: #f5f6fa;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* ===== Header ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header .left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.header input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+  width: 220px;
+  transition: 0.2s;
+}
+
+.header input:focus {
+  border-color: #4e8cff;
+  outline: none;
+}
+
+.header select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+}
+
+.header button {
+  padding: 8px 14px;
+  background: #4e8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.header button:hover {
+  background: #3874e6;
+}
+
+/* ===== Table ===== */
+.products {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.products thead {
+  background: #eef2ff;
+}
+
+.products th,
+.products td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ececec;
+  text-align: left;
+  font-size: 14px;
+}
+
+.products tr:hover {
+  background: #f7f9ff;
+  cursor: pointer;
+}
+
+.products img {
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+/* ===== Buttons ===== */
+.products button {
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: white;
+  transition: 0.2s;
+}
+
+.products button:hover {
+  opacity: 0.85;
+}
+
+.products button:nth-of-type(1) {
+  background: #4e8cff;
+}
+
+.products button:nth-of-type(2) {
+  background: #ff5b5b;
+}
+
+/* ===== Editable Input in Table ===== */
+.products input {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 1px solid #d1d1d1;
+  width: 100%;
+}
+
+/* ===== Status Labels ===== */
+.label {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.green {
+  background: #28a745;
+}
+
+.red {
+  background: #dc3545;
+}
+
+/* ===== Sidebar History ===== */
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 340px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: -3px 0px 8px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  overflow-y: auto;
+  animation: slideIn 0.3s ease;
+  z-index: 100;
+}
+
+@keyframes slideIn {
+  from {
+    right: -350px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header button {
+  background: #ff5b5b;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.sidebar th,
+.sidebar td {
+  padding: 8px 5px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 13px;
+}
+
+/* ===== Import/Export Section ===== */
+.import-export button {
+  padding: 8px 12px;
+  background: #4e8cff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.import-export button:hover {
+  background: #3874e6;
+}
+.modal-actions button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  background: #4e8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}

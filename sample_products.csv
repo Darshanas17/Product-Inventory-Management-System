@@ -1,0 +1,20 @@
+name,unit,category,brand,stock,status,image
+Red Apple,kg,Fruits,Orchard Fresh,120,In Stock,https://thumbs.dreamstime.com/b/red-apple-13061234.jpg
+Green Apple,kg,Fruits,Orchard Fresh,0,Out of Stock,https://media.istockphoto.com/id/584226186/photo/green-apple.jpg?s=612x612&w=0&k=20&c=FFyliIlKV-s9lntkVrrDK63w3mJy3QPwLqcOs7Lv2_0=
+Banana,dozen,Fruits,Tropical Co,30,In Stock,https://img.freepik.com/premium-photo/yellow-banana-product-photography-isolated-white-background_899449-76838.jpg
+Whole Milk,L,Dairy,DairyPure,50,In Stock,https://media.istockphoto.com/id/1519041977/photo/whole-milk-symbol-printed-milk-carton-package-on-white-background.jpg?s=612x612&w=0&k=20&c=NfmRRR7BGOlB5os4DxynjPmt20_YfaK0OGg_-mDNVIU=
+Cheddar Cheese,kg,Dairy,Cheesy,10,In Stock,https://www.noracooks.com/wp-content/uploads/2020/05/square.jpg
+White Bread,loaf,Bakery,BakeHouse,0,Out of Stock,https://media.istockphoto.com/id/183581054/photo/slice-of-white-tinloaf-on-white-background.jpg?s=612x612&w=0&k=20&c=IvcvSs9Wi4qGfjP9eVQmlZljoPDEEY7RTdIwkfbjn4c=
+Eggs,dozen,Dairy,FarmFresh,200,In Stock,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnALKwLkk8TdbqUvIP4z_uAVO5mrK-qPjWBA&s
+Olive Oil,L,Pantry,Olivia,15,In Stock,https://img.freepik.com/premium-vector/square-olive-oil-label-layout-background-design-vector_518203-1799.jpg
+Black Pepper,g,Spices,SpiceCo,5,In Stock,https://img500.exportersindia.com/product_images/bc-500/2023/9/1567439/organic-black-pepper-1682179630-6862556.jpeg
+Vanilla Extract,ml,Baking,SweetEssence,2,In Stock,https://www.rodellekitchen.com/wp-content/uploads/2018/04/08598122804-1-scaled.webp
+Rice,kg,Grains,GrainHouse,500,In Stock,https://img.freepik.com/premium-photo/raw-jasmine-rice-grain-with-ear-paddy-agricultural-products-food-asian-thai-rice-white-bowl-sack-background_73523-3077.jpg
+Pasta,kg,Grains,PastaWorks,250,In Stock,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShf2qi6_rWEoyI2xCHcW6BpI07SE9FpZjqzQ&s
+Tomato Sauce,jar,Pantry,Toma,80,In Stock,https://5.imimg.com/data5/SELLER/Default/2023/9/347411270/QY/XB/PX/4277920/tomato-sauce-500x500.jpg
+Almonds,kg,Nuts,Nutri,25,In Stock,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCMsv8GRoK4z5I9o5acfey0Foix3qs9z_NHgnC3_nci-GL7Q8EbchBoqHqS4vk8ebfUtI&usqp=CAU
+Sugar,kg,Baking,SweetCo,0,Out of Stock,https://cdn.dotpe.in/longtail/store-items/1087846/PTnvRJtz.jpeg
+Salt,kg,Spices,SaltWorks,75,In Stock,https://www.tataconsumer.com/sites/g/files/gfwrlq316/files/6377919-2-Tata-Salt-SuperLite-1Kg-min.png
+Black Tea,box,Beverages,TeaTime,60,In Stock,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8Ok2GDtqCzLo4ohR3UaIUaiak1d7rtIuSg&s
+Coffee Beans,kg,Beverages,CoffeeRoast,0,Out of Stock,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8i8Iu4cq6sZaJ92dqnKLPBEiSe422THzHvA&s
+Orange Juice,L,Beverages,FruitJuice,90,In Stock,https://img.freepik.com/free-psd/refreshing-glass-orange-juice-with-fruit_191095-77582.jpg?semt=ais_hybrid&w=740&q=80
