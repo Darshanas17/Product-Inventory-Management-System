@@ -7,10 +7,10 @@ A lightweight full-stack application for managing product inventory with search,
 ## Live Demo
 
 **Frontend:**
-[frontend-url](frontend-url)
+[https://product-inventory-management-system-tkl2.onrender.com/](https://product-inventory-management-system-tkl2.onrender.com/)
 
 **Backend API:**
-[backend-url](backend-url)
+[https://product-inventory-management-system-hzaa.onrender.com/api/products](https://product-inventory-management-system-hzaa.onrender.com/api/products)
 
 ---
 
